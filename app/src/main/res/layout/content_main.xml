@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="?colorPrimary"
+                app:contentInsetStart="0.0dip"
+                app:layout_scrollFlags="enterAlways|scroll">
+
+                <com.ogaclejapan.smarttablayout.SmartTabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/viewpagertab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    app:stl_distributeEvenly="true"
+                    android:layout_gravity="center"
+                    app:stl_dividerColor="@color/transparent"
+                    app:stl_dividerThickness="0dp"
+                    app:stl_indicatorColor="@color/transparent"
+                    app:stl_indicatorThickness="0dp"
+                    app:stl_underlineColor="@color/transparent"
+                    app:stl_underlineThickness="0dp" />
+
+
+            </android.support.v7.widget.Toolbar>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/mainActivityViewPagerContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/mainActivityViewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

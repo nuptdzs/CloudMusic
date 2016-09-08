@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_1" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_2" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_3" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_4" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_5" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_6" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_7" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_8" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_9" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_10" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_11" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_12" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_13" />
+    <item android:duration="200" android:drawable="@drawable/fm_vehicle_linking_14" />
+</animation-list>
